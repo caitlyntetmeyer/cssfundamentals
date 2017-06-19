@@ -1,0 +1,135 @@
+body {
+	background-color: #2E0854;
+}
+
+.wrapper {
+	margin: 5px;
+}
+
+.face {
+	width: 75px;
+	height: 75px;
+	border: solid 2px deeppink;
+	background-color: deeppink;
+	border-radius: 50px;
+}
+
+.lefteyebrow {
+	width: 6px;
+	height: 1px;
+	border:solid 1px black;
+	z-index: 1;
+	position: relative;
+	left: 31px;
+	top: 22px;
+	background-color: black;
+}
+
+.lefteye {
+	width: 6px;
+	height: 6px;
+	border: solid 1px black;
+	border-radius: 3px;
+	z-index: 1;
+	position: relative;
+	left: 32px;
+	top: 26px;
+	background-color: black;
+}
+
+#inner-left {
+	width: 1px;
+	height: 1px;
+	border: solid 1px white;
+	border-radius:3px;
+	z-index: 1;
+	position: relative;
+	left:2px;
+	top:2px;
+	background-color: white;
+}
+
+.righteyebrow {
+	width: 6px;
+	height: 1px;
+	border:solid 1px black;
+	z-index: 1;
+	position: relative;
+	left: 53px;
+	top: 11px;
+	background-color: black;
+}
+
+.righteye {
+	width: 6px;
+	height: 6px;
+	border: solid 1px black;
+	border-radius: 3px;
+	z-index: 1;
+	position: relative;
+	left: 54px;
+	top: 15px;
+	background-color: black;
+}
+
+#inner-right {
+	width: 3px;
+	height: 3px;
+	border: solid 2px black;
+	border-radius: 3px;
+	z-index: 1;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: white;
+}
+
+.mouth {
+	width: 30px;
+	height: 10px;
+	border: solid 1px black;
+	border-radius: 85%;
+	margin: 16px;
+	position: relative;
+	top: 1em;
+	left: 1em;
+	background-color: black;
+}
+
+/*.triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 100px solid pink;
+	border-left: 50px solid transparent;
+	border-right: 50px	solid transparent;
+	margin-top: 15px;
+}
+-*/
+.tooth {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 10px solid white;
+	border-left: 4px solid transparent;
+	border-right: 4px	solid transparent;
+	margin-top: 33px;
+	margin-left: 38px;
+	z-index: 3;
+}
+
+p {
+	color: deeppink;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+

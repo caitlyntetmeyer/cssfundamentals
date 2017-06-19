@@ -1,0 +1,23 @@
+.bluebox{
+	height: auto;
+	width: auto;
+	background-color: blue;
+	border: 10px solid green;
+	margin-bottom: 50px;
+	padding: 25px 45px 29px 100px;
+}
+
+.purplebox{
+	height: auto;
+	width: auto;
+	background-color: purple;
+	border: 10px solid yellow;
+}
+
+.whitetext{
+	color: white;
+	font-family: 'Vibur', cursive;
+	font-size: 1.5em;
+	margin:7px auto;
+	margin-left: 7px;
+}
